@@ -1,11 +1,15 @@
-/* header section */
-header {
+.header-container {
+    display: flex;
+    height: 600px;
     width: 80%;
-    /* max-width: 1320px; */
-    /* margin: 50px auto; */
-    margin: auto;
+    max-width: 100%;
+    margin: 50px auto;
+    align-items: center;
+    margin-bottom: 120px;
 
 }
+
+
 
 #Section1 {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
@@ -102,10 +106,9 @@ section {
 .welcome-container {
     display: flex;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
-    width: 1320px;
     height: 600px;
     width: 80%;
-    max-width: 1320px;
+    max-width: 100%;
     margin: 50px auto;
     align-items: center;
     margin-bottom: 120px;
@@ -126,7 +129,7 @@ section {
     max-width: 400px;
     line-height: 30px;
     width: 80%;
-    max-width: 1320px;
+    max-width: ;
     margin: 50px auto;
 }
 
