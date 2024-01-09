@@ -65,7 +65,7 @@ h1 {
     padding-top: 0px;
 }
 
-.d-f {
+.selmon {
     color: #070211;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -89,18 +89,9 @@ img {
     flex-shrink: 0;
 }
 
-/* .Welcome-title {
-    background: url("../resources/Vectorrr.png");
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
-} */
-
-
-
-/* } */
+#C {
+    padding-top: 30px;
+}
 
 section {
     border-radius: 16px;
@@ -124,14 +115,10 @@ section {
     top: 200px;
 }
 
-.button {
- 
-}
-
 .welcome-peragraph {
     color: #F00;
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: large;
     font-style: normal;
     max-width: 400px;
@@ -176,7 +163,7 @@ span {
 
 .offer-discription {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -186,7 +173,7 @@ span {
 
 .offer-coming {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -224,7 +211,7 @@ span {
 
 .offer-coming {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -334,7 +321,7 @@ input {
 .Subercibe {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -370,7 +357,7 @@ input {
 
 .portfolio-title2 {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -398,7 +385,90 @@ input {
     border-radius: 6px;
     border: 1px solid #F00;
     color: #FFF;
-    font-family:'Inter', sans-serif ;
+    font-family: 'Inter', sans-serif;
     font-size: small;
     font-weight: 300;
+}
+
+.hodiday-container {
+    width: 1320px;
+    height: 900px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.holiday-title1 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday-title2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#class {
+    width: 1320px;
+    height: 220px;
+    padding-top: 200px;
+}
+
+.holiday-image {
+    /* background: url("../resources/Rectangle\ 2.png"); */
+    border-radius: 16px 0px 16px 16px;
+    width: 1320px;
+    height: 220px;
+    background-position: bottom;
+}
+
+.girl {
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+
+}
+
+.discount {
+    width: 206.841px;
+    height: 206.841px;
+    right: 300px;
+    top:500px
+
+}
+
+.box {
+    width: 550px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.holiday-image {
+    display: flex;
+    background-image: url("../resources/Rectangle 2.png"), mar;
+    justify-content: space-between;
+    
 }
